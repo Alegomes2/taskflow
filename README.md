@@ -1,20 +1,138 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚀 TaskFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação **SPA (Single Page Application)** para gerenciamento de tarefas, desenvolvida com foco em boas práticas de desenvolvimento front-end.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+![preview](https://via.placeholder.com/800x400?text=TaskFlow+Preview)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# taskflow
->>>>>>> e1e0e6e5c5dc4e49cccc2d1e0fda331538aabfe2
+* ✅ Adicionar tarefas
+* 🗑️ Remover tarefas
+* ✔️ Marcar como concluída
+* 🔄 Filtros (Todas, Pendentes, Concluídas)
+* 💾 Persistência com LocalStorage
+* ⚡ Interface rápida e responsiva
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* React
+* Vite
+* Tailwind CSS
+* JavaScript (ES6+)
+
+---
+
+## 📂 Estrutura do projeto
+
+```
+src
+ ├ components
+ │   ├ TaskForm.jsx
+ │   ├ TaskItem.jsx
+ │   ├ TaskList.jsx
+ │   └ Filter.jsx
+ │
+ ├ pages
+ │   └ Home.jsx
+ │
+ ├ App.jsx
+ └ main.jsx
+```
+
+---
+
+## 🚀 Como rodar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Alegomes2/taskflow.git
+```
+
+Entre na pasta:
+
+```bash
+cd taskflow
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Deploy
+
+Acesse o projeto online:
+
+👉 (https://taskflow-gules-phi.vercel.app/)
+
+---
+
+## 🎯 Objetivo do projeto
+
+Este projeto foi desenvolvido com o objetivo de:
+
+* Praticar React na construção de SPAs
+* Trabalhar com gerenciamento de estado
+* Aplicar boas práticas de componentização
+* Simular um fluxo real de aplicação
+
+---
+
+## 🧠 Aprendizados
+
+Durante o desenvolvimento foram aplicados conceitos como:
+
+* useState e useEffect
+* Manipulação de arrays (map, filter)
+* Componentização
+* Persistência de dados com LocalStorage
+* Estruturação de projeto profissional
+
+---
+
+## 📈 Melhorias futuras
+
+* 🔐 Autenticação de usuários
+* ☁️ Integração com backend
+* 🎨 Animações e UX avançada
+* 📱 Versão mobile aprimorada
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Alexandre Gomes**
+
+* GitHub: https://github.com/Alegomes2
+* LinkedIn: www.linkedin.com/in/alexandregomessantos
+
+---
+
+## ⭐ Contribuição
+
+Sinta-se à vontade para abrir issues ou contribuir com melhorias!
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
